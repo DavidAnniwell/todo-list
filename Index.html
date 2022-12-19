@@ -4,7 +4,7 @@
 	    <meta charset="utf-8">
 	    <title>TODO list</title>
 	    <style>
-	        h1 {
+	        	        h1 {
 	            text-align:left;
 	        }
 	        h3 {
@@ -15,6 +15,24 @@
 				padding: 22px 0;
 				border-bottom: 2px solid #eee;
 			}
+	        ul li {
+	            cursor: pointer;
+	            position: relative;
+	            padding: 12px 8px 12px 40px;
+	            background: #eee;
+	            font-size: 18px;
+	            transition: 0.2s;
+				-webkit-user-select: none;
+				-moz-user-select: none;
+				-ms-user-select: none;
+				user-select: none;
+	        }
+	        ul li:nth-child(odd) {
+	            bacgrkound: #f9f9f9;
+	        }
+	        ul li:hover {
+	            background: #ddd;
+	        }
 	    </style>
 	</head>
 	<body>
